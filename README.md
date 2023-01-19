@@ -1,14 +1,14 @@
 提交生成到jitpack.io
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
-    dependencies {
-	        implementation 'com.github.shixingxing:LoadSir:1.3.9'
-	}
+}
+dependencies {
+	implementation 'com.github.shixingxing:LoadSir:1.3.9'
+}
 ```
 
 ![](imgs/LoadSir.jpg)
