@@ -1,3 +1,16 @@
+提交生成到jitpack.io
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    dependencies {
+	        implementation 'com.github.shixingxing:LoadSir:1.3.9'
+	}
+```
+
 ![](imgs/LoadSir.jpg)
 
 中文 | [English](README-en.md)
